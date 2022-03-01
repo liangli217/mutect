@@ -1,4 +1,4 @@
-*
+/*
  * By downloading the PROGRAM you agree to the following terms of use:
  *
  * BROAD INSTITUTE SOFTWARE LICENSE AGREEMENT
