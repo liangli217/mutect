@@ -621,11 +621,11 @@ public class MuTect extends LocusWalker<Integer, Integer>  {
                 }
             }
 
-            //if (passingCandidates > 1) {
-              //  for(CandidateMutation c : messageByTumorLod.values()) {
-                //    c.addRejectionReason("triallelic_site");
-                //}
-           // }
+            if (passingCandidates > 1) {
+                for(CandidateMutation c : messageByTumorLod.values()) {
+                    c.addRejectionReason("triallelic_site");
+                }
+            }
 
             // write out the call stats for the "best" candidate
             if (!messageByTumorLod.isEmpty()) {
